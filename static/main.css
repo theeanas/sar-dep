@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  body {
+    text-align: center;
+    
+    background-image: url("sarah_logo.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  .question-box {
+    display: inline-block;
+    border-style: solid;
+    border-color: darkblue;
+    width: 1000px;
+    height: 170px;
+    background-color: bisque;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .button {
+    background-color:black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .question {
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .answer {
+    width: 500px;
+  }

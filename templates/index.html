@@ -1,0 +1,23 @@
+<head>
+  <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+</head>
+<body>
+    <h1>
+      سراة
+    </h1>
+    <h2> المرحلة الأولى</h2>
+    <form method="POST">
+    <div class="question-box">
+      <br> السؤال ل:
+        {{user_n}}
+      <br>
+      <p class="question">
+        {{user_q}}
+      </p>
+      <input class="answer" type="text" name="ans" required>
+      <br>
+      <br>
+      <input class="button" type="submit" value="..اللي بعده">
+    </div>
+    </form>
+  </body>
